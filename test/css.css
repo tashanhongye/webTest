@@ -1,0 +1,123 @@
+*{
+    font-family:font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body{
+    width:95%;
+    margin:0em auto;
+}
+
+
+header h1{
+    font-size:2em;
+    margin:0px;
+    color:#002951;
+}
+
+header h2{
+    font-size:0.9375em;
+    margin:0px;
+    color:#99f;
+    font-style:italic;
+}
+
+nav ul {
+    list-style: none;
+    display:block;
+    padding:0px;
+    clear:right;
+    padding-left:4px;
+    background-color:#99f;
+    height:24px;
+}
+
+nav ul li{
+    display: inline;
+    padding:0px 20px 5px 10px;
+    height:24px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:0.8125em;
+    color: #006;
+}
+
+nav ul li a:hover{
+    color:#FFF;
+    border-bottom:2px solid #FFF;
+}
+
+article{
+    float:left;
+    width:100%;
+}
+
+article>header h1{
+    width:100%;
+    font-size:2em;
+    float:left;
+}
+
+article p{
+    float:left;
+}
+
+article>section header h1{
+    float:left;
+    width:100%;
+}
+
+article>section p.next-to-aside{
+    float:left;
+    width:40%;
+}
+
+article>section aside p {
+    float:left;
+    position:relative;
+    top:12%;
+    z-index:1;
+    width:45%;
+    margin-left:10px;
+    font-style: italic;
+    color: #99f;
+}
+
+article > section > menu {
+    float: left;
+    width:80%;
+}
+
+article > section figure {
+    float:left;
+    margin-bottom:30px;
+}
+
+article>section p.video{
+    width:100%;
+    text-align:center;
+}
+
+article>section video{
+    height:200px;
+    width:95%;
+}
+
+article>section div.no-html5-video p{
+    height:2%;
+    width:100%;
+    color:#000090;
+    font-size:0.8em;
+    font-style:italic;
+    font-weight:bold;
+    background-color: #99f;
+}
+
+footer p {
+    text-align:center;
+    font-size:0.75em;
+    color:#888;
+    margin-top:24px;
+}
